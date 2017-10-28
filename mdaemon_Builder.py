@@ -26,7 +26,7 @@ for i in range(10):
 
 
 
-users=open("it-users.txt",'r')
+users=open("User.txt",'r')
 md=open("mdaemon_users.csv",'w')
 md.writelines('"Mailbox","FullName","MailDir","AllowAccess","Password","ApplyQuotas","MaxDiskSpace"')
 hh=[]
